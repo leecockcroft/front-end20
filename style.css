@@ -236,15 +236,34 @@ border: 0.2rem solid #fff;
 .main-content{
   background: #fff;
   text-align: left;
-  /* padding: 0 2.4rem; */
+    padding: 3rem 4.4rem;
   align-self: end;
   position: relative;
   left: -13rem;
   flex: 1;
 }
+.main-content h2 {
+  font-size: 2.9rem;
+/* font-family: 'Alata', sans-serif; */
+/* color: var(--DarkGray); */
+line-height: 0.9;
+padding: 3rem 0;
+font-family: 'Josefin Sans';
+text-transform: uppercase;
+font-weight: 400;
+color: var(--VeryDarkGray);
+letter-spacing: 0.1em;
+line-height: 1.1;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+line-height: 1.3;
+color: var(--DarkGray);
+}
 
 .img-wrapper{
-    width: 50%;
+    width: 60%;
 }
 
 .box-wrapper{
@@ -262,7 +281,7 @@ border: 0.2rem solid #fff;
 .bottom h3 {
   font-size: 3rem;
     padding: 6rem 0;
-    color: var(--DarkGray);
+color: var(--VeryDarkGray);
     text-transform: uppercase;
 }
 }
