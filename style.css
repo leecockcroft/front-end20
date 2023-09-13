@@ -101,7 +101,7 @@ padding:3rem 0;
   position: absolute;
   color: #fff;
   top: 50%;
-  font-size: clamp(1.8rem ,4vw, 4rem);
+  font-size: clamp(1.8rem ,4vw, 2.7rem);
   width: 14rem;
   text-transform: uppercase;
   left: 8%;
@@ -110,6 +110,7 @@ padding:3rem 0;
 .cta-wrapper{
 
   text-align: center;
+  margin: 3rem 0;
 }
 
 .cta-wrapper a {
@@ -123,7 +124,124 @@ padding:3rem 0;
 
 
 footer{
-  height:40rem;
+
   background:#000;
   color:#fff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-main{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+  width:10rem;
+  padding:3rem 0;
+}
+
+
+.footer-nav {
+
+flex-direction: column;
+
+  padding-bottom: 3rem;
+}
+
+footer ul li {
+  padding: 1rem 0
+
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.social ul li{
+    padding: 0 1rem;
+}
+
+.social {
+  padding-bottom:3rem;
+}
+
+
+
+@media (min-width:768px){
+
+
+.wrapper{
+  max-width:1440px;
+  margin:auto;
+}
+.burger-menu{
+  display:none;
+
+}
+
+.desktop-nav{
+
+  display: flex;
+color: #fff;
+font-size: 1.5rem;
+
+}
+
+
+nav {
+  padding:7em 8em;
+}
+
+.content{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding: 0 8rem;
+}
+
+.content-header{
+  width:100%;
+}
+
+.top{
+  display:flex;
+}
+.main-content{
+  background: #fff;
+  text-align: left;
+  /* padding: 0 2.4rem; */
+  align-self: end;
+  position: relative;
+  left: -13rem;
+  flex: 1;
+}
+
+.img-wrapper{
+    width: 50%;
+}
+
+.box-wrapper{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:2rem;
+}
+
+.box p {
+  color: var(--DarkGray);
+    top: 76%;
+}
+
+.bottom h3 {
+  font-size: 3rem;
+    padding: 6rem 0;
+    color: var(--DarkGray);
+    text-transform: uppercase;
+}
 }
