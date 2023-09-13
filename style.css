@@ -25,6 +25,9 @@ font-family: 'Josefin Sans', sans-serif;
   display:none;
 }
 
+.desktop-cta{
+  display:none;
+}
 
 img{
   max-width:100%;
@@ -210,6 +213,26 @@ main {
   padding: 0 17rem;
 }
 
+.bottom-header{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15rem 0 8rem 0;
+
+
+}
+
+.desktop-cta{
+  display: inline-block;
+  border: 0.1rem solid black;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  text-decoration:none;
+
+}
+
+
 .content{
   display: block;
 
@@ -280,9 +303,13 @@ color: var(--DarkGray);
 
 .bottom h3 {
   font-size: 5rem;
-      padding: 15rem 0 8rem 0;
+
 color: var(--VeryDarkGray);
     text-transform: uppercase;
+}
+
+footer{
+  padding-bottom:5rem;
 }
 
 
