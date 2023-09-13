@@ -221,7 +221,7 @@ main {
 
 .content-header{
   color: var(--white);
-    font-size: clamp(2rem,4vw,7rem);
+    font-size: clamp(2rem,5vw,7rem);
 font-weight: 100;
 text-transform: uppercase;
 padding: 2.4rem;
