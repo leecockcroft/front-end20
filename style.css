@@ -205,7 +205,8 @@ header{
       margin-bottom: 10rem;
 }
 nav {
-  padding:7em 13em;
+  padding:5em 13em;
+  align-items:center;
 }
 
 main {
@@ -259,7 +260,7 @@ border: 0.2rem solid #fff;
 
 .logo-wrapper{
 
-    width: 14rem;
+    width: 15rem;
 
 }
 
