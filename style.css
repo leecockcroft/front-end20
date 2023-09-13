@@ -192,6 +192,15 @@ font-size: 1.5rem;
 
 }
 
+.desktop-nav ul{
+  display:flex;
+  list-style: none;
+}
+
+.desktop-nav ul li {
+  padding:2rem;
+}
+
 header{
       margin-bottom: 10rem;
 }
@@ -246,6 +255,12 @@ border: 0.2rem solid #fff;
 .box p {
   color: var(--DarkGray);
     top: 76%;
+}
+
+.logo-wrapper{
+
+    width: 14rem;
+
 }
 
 .bottom h3 {
