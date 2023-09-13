@@ -284,4 +284,22 @@ color: var(--DarkGray);
 color: var(--VeryDarkGray);
     text-transform: uppercase;
 }
+
+footer {
+
+
+}
+
+.footer-main{
+  width:100%;
+    flex-direction: row;
+      justify-content: space-around;
+}
+
+.footer-nav,.footer-main,footer{
+    flex-direction: row;
+}
+
+.footer-nav  li {
+    padding-right: 2rem;
 }
