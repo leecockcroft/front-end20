@@ -53,9 +53,6 @@ nav{
   justify-content: space-between;
 }
 
-.logo-wrapper{
-      width: 11rem;
-}
 .content{
   display: flex;
 justify-content: center;
@@ -223,7 +220,7 @@ main {
 
 .content-header{
   color: var(--white);
-font-size: 7rem;
+    font-size: clamp(2rem,4vw,7rem);
 font-weight: 100;
 text-transform: uppercase;
 padding: 2.4rem;
@@ -258,11 +255,6 @@ border: 0.2rem solid #fff;
     top: 76%;
 }
 
-.logo-wrapper{
-
-    width: 15rem;
-
-}
 
 .bottom h3 {
   font-size: 3rem;
